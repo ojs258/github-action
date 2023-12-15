@@ -1,11 +1,11 @@
-name: test action
+name: test-action
 on:
   workflow_dispatch:
-    push:
-      #branches: 'develop'
-      # develop 브랜치를 타겟으로 잡음
-      # 아무것도 입력안하면 모든 브랜치를 타겟으로 잡음
-      # 풀리퀘스트도 가능
+  push:
+#branches: 'develop'
+# develop 브랜치를 타겟으로 잡음
+# 아무것도 입력안하면 모든 브랜치를 타겟으로 잡음
+# 풀리퀘스트도 가능
 jobs:
   test:
     runs-on: ubuntu-latest
