@@ -1,0 +1,17 @@
+package com.example.githubaction;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class GithubActionApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+    @Test
+    void fail() {
+        throw new RuntimeException("실패");
+    }
+}
